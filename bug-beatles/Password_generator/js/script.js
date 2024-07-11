@@ -187,7 +187,7 @@ function generatePassword(){
         password += checkedCbArray[randomIndex]();
     }
 
-    // shuffle the newly created pass.
+    // shuffle the newly created pass
     password = shuffleArray(Array.from(password));
     passwordDisplay.value = password;
     console.log('password :', password);
